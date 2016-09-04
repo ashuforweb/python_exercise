@@ -8,4 +8,26 @@ Solution
 
 p = (4,5,6,7)
 a,b,c,d = p
-print(a,b,c,d)
+print(a)
+print(b)
+print(c)
+print(d)
+
+q = [1,2,3,(4,5,6)]
+w,x,y,z = q
+print (w)
+print (x)
+print (y)
+print (z)
+
+'''
+This works with any iterable like strings
+'''
+s = 'Hello'
+f,g,h,i,j = s
+
+print (f)
+print (g)
+print (h)
+print (i)
+print (j)
